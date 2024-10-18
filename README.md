@@ -50,8 +50,14 @@ MKE-M16 Blynk Gate Wifi IoT Module thuộc hệ sinh thái phần cứng Robotic
 #### Chế độ kết hợp:
 - [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
 - [Mạch MakerEdu Shield for Vietduino](https://www.makerlab.vn/vietduinosd)
-- 
+### Hướng dẫn lập trình với mBlock (kéo thả khối)
+- Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
+- Thêm Device "MakerEdu Creator" by MakerEduVN
+- Thêm Extension "Upload Mode Broadcast" by mBlock Official
+- Thêm Extension "MakerEdu Hardware" by MakerEduVN
+- Mở [chương trình mẫu tại đây](/mBlock5), kết nối mạch và nạp chương trình.
 
+[![Ciaobot mblock](/image/mblock.png)](https://www.youtube.com/watch?v=fWIyjU7ekBY)
 
 
 ## Hỗ trợ và liên hệ:
