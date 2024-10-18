@@ -1,34 +1,23 @@
-# Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor
+# MKE-M16 Blynk Gate Wifi IoT Module
 
 ## Giới thiệu
 
-Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor sử dụng sóng siêu âm để đo khoảng cách đến vật cản từ 3~200cm, cảm biến sử dụng IC xử lý, thạch anh chất lượng tốt cho độ bền, độ ổn định và độ chính xác cao, thích hợp để làm các loại robot tránh vật cản, chống trộm, đo khoảng cách,...
+Với các mạch vi điều khiển không có chức năng Wifi nhưng lại quá quen thuộc với bạn như Arduino Uno, Arduino Mega 2560, Microbit,...thì việc xây dựng các ứng dụng IoT trở nên thật khó khăn. MKE-M16 Blynk Gate Wifi IoT Module giúp bạn giải quyết vấn đề này chỉ với vài bước thiết lập đơn giản, bạn đã có thể kết nối Wifi và xây dựng các ứng dụng IoT trên nền tảng Blynk đã quá nổi tiếng và quen thuộc hiện nay.
 
-Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+MKE-M16 Blynk Gate Wifi IoT Module được MakerLab.vn nghiên cứu và phát triển giúp các bạn DIY các thiết bị IoT nhanh và dễ dàng trên nền tảng Blynk, module có hai cách sử dụng là hoạt động độc lập bằng chính các chân GPIO có trên mạch hoặc hết hợp với các mạch vi điều khiển (như Arduino, Microbit,...) qua giao tiếp I2C.
 
-## Nguyên lý hoạt động
-
-Cảm biến siêu âm đo khoảng cách đến vật cản bằng cách phát sóng siêu âm từ mắt phát T (Transmitter) đến vật cản, sóng siêu âm khi đó sẽ bị phản xạ lại và truyền tới mắt thu R (Receiver), ghi nhận khoảng thời gian t quá trình này xảy ra bằng mạch xử lý kết hợp với vận tốc xác định của sóng siêu âm ta có thể tính được khoảng cách tương đối chính xác đến vật cản theo công thức:
-
-Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc sóng siêu âm) / 2
-
-![MKE_S01](/image/MKE_S01_1.jpg)
-- Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
-- Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
-
-Để tăng độ chính xác và giảm nhiễu, sóng siêu âm sẽ được mắt phát T (Transmitter) phát ra theo tần số chuyên biệt để không bị nhiễu với các loại sóng khác của môi trường, phương pháp đo khoảng cách bằng cảm biến siêu âm tương đối chính xác và ổn định, tuy nhiên vẫn có một nhược điểm của phương pháp này là phụ thuộc vào hình dạng của vật thể phản xạ, vật thể có bề mặt không phẳng sẽ làm ảnh hưởng đến độ phản xạ của sóng siêu âm dẫn đến kết quả đo kém chính xác. 
+MKE-M16 Blynk Gate Wifi IoT Module thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Thông số kỹ thuật
 
-- Model: MKE-S01
+- Model: MKE-M16
+- IC chính: ESP8266
+- Sử dụng chuẩn Wifi băng tần: 2.4Ghz
+- Tương thích với nền tảng Blynk.
 - Điện áp hoạt động: 5VDC
-- Chuẩn giao tiếp: Digital
+- Dòng điện tiêu thụ khi hoạt động:
+- Chuẩn giao tiếp: I2C / GPIO
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
-- Dòng điện hoạt động: 65mA
-- Tần số hoạt động: 40Khz
-- Khoảng cách đo được: 3-200cm
-- Góc quét: 15°
-- Tín hiệu ngõ vào Trigger: 10μs TTL pulse
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối: connector XH2.54 4Pins
