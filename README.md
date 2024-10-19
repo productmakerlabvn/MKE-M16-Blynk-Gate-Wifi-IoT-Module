@@ -11,9 +11,9 @@ MKE-M16 Blynk Gate Wifi IoT Module thuộc hệ sinh thái phần cứng Robotic
 ## Thông số kỹ thuật
 
 - Model: MKE-M16 Blynk Gate Wifi IoT Module
+- Tương thích với nền tảng Blynk.
 - IC chính: ESP8266
 - Sử dụng chuẩn Wifi băng tần: 2.4Ghz
-- Tương thích với nền tảng Blynk.
 - Điện áp hoạt động: 5VDC
 - Dòng điện tiêu thụ khi hoạt động: khoảng 300mA
 - Chuẩn giao tiếp: I2C / GPIO
