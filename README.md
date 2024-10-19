@@ -25,13 +25,13 @@ MKE-M16 Blynk Gate Wifi IoT Module thuộc hệ sinh thái phần cứng Robotic
 
 ## Hình ảnh sản phẩm
 
-![MKE_S01](/image/MKE_S01_2.jpg)
+![MKE_M16](/image/blynkgate1.png)
 
-![MKE_S01](/image/MKE_S01_3.jpg)
+![MKE_M16](/image/blynkgate2.png)
 
 ## Kích thước sản phẩm
 
-![MKE_S01](/image/MKE_S01_4.JPG)
+![MKE_M16](/image/blynkgate3.png)
 
 ## Các chân tín hiệu
 
